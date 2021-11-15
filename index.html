@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    
+    <form action=""></form>
+        <select name="budget-type" id="budget-type">
+            <option value="Choose type" class="option-choose">Choose type</option>
+            <option value="Income" class="option-income">Income</option>
+            <option value="Cost" class="option-cost">Cost</option>
+        </select>
+        <input type="text" id="description" placeholder="Description, ex 'CSN'">
+        <input type="number" id="value" placeholder="Enter the value" min="0">
+    </form>
+
+    <button class="add-btn">Add</button>
+
+    <main>
+        <h1 class="income-header">Income List</h1>
+
+        <section class="income-list"></section>
+
+        <h1 class="cost-header">Cost List</h1>
+
+        <section class="cost-list"></section>
+
+        <section class="profit"></section>
+
+    </main>
+</body>
+</html>
