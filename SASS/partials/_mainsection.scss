@@ -1,3 +1,4 @@
+// Styling income, cost and profit section
 main {
     margin-bottom: 3rem;
 }
@@ -32,10 +33,6 @@ main {
     align-items: center;
 }
 
-.profit-header {
-    border: 1px solid black;
-}
-
 .profit {
     text-align: center;
     width: 60%;
@@ -44,13 +41,11 @@ main {
     margin: auto;    
 }
 
-
 .profit-value {
     font-size: 200%;
     font-weight: bolder;
     margin-bottom: 1.5rem;
 }
-
 
 .total-income-cost {
     display:flex;
