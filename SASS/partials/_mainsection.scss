@@ -1,0 +1,77 @@
+main {
+    margin-bottom: 3rem;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: $boxBackgroundColor;
+    width:80%;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.income-section {
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid rgb(248, 245, 238);
+}
+
+.cost-section {
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profit-header {
+    border: 1px solid black;
+}
+
+.profit {
+    text-align: center;
+    width: 60%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: auto;    
+}
+
+
+.profit-value {
+    font-size: 200%;
+    font-weight: bolder;
+    margin-bottom: 1.5rem;
+}
+
+
+.total-income-cost {
+    display:flex;
+    flex-direction: row;
+    width: 50%;
+    margin:auto;
+    justify-content: space-between;
+}
+
+.total-income {
+    color:green;
+    font-size: smaller;
+}
+
+.total-cost {
+    color:red;
+    font-size: smaller;
+}
+
+section > h1 {
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 2rem;
+}

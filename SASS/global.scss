@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: $fontSize;
+    color: $fontColor;
+    font-family: $fontFamily;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    background-color: $backgroundColor;
+}
+
+input {
+    color: rgb(68, 68, 68);
+}

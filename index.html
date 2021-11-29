@@ -6,32 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="main.js" defer></script>
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    
-    <form action=""></form>
+    <header>
+        <h1 class="title">Money Making in the Making</h1>
+    </header>
+    <form class="form">
         <select name="budget-type" id="budget-type">
             <option value="Choose type" class="option-choose">Choose type</option>
             <option value="Income" class="option-income">Income</option>
             <option value="Cost" class="option-cost">Cost</option>
         </select>
-        <input type="text" id="description" placeholder="Description, ex 'CSN'">
-        <input type="number" id="value" placeholder="Enter the value" min="0">
+        <section class="input-section">
+            <input type="text" id="description" placeholder="Description, ex 'CSN'">
+            <input type="number" id="value" placeholder="Enter the value" min="0">
+        </section>
     </form>
-
-    <button class="add-btn">Add</button>
-
+    <div class="btn-div">
+        <button class="add-btn"><a href="">Add</a></button>
+        <button class="profit-btn"><a href="#profit_id">Calculate profit</a></button>
+    </div>
     <main>
-        <h1 class="income-header">Income List</h1>
-
-        <section class="income-list"></section>
-
-        <h1 class="cost-header">Cost List</h1>
-
-        <section class="cost-list"></section>
-
-        <section class="profit"></section>
-
+        <article class="wrapper">
+            <section class="income-section">
+                <h1 class="income-header">Income List</h1>
+                <div class="income-list"></div>
+            </section> 
+            <section class="cost-section">
+                <h1 class="cost-header">Cost List</h1>
+                <div class="cost-list"></div>
+            </section>
+        </article>
+        <section class="profit" id="profit_id"></section>
     </main>
 </body>
 </html>

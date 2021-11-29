@@ -4,6 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "start": "node-sass sass/main.scss css/main.css -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
